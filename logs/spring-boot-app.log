@@ -1,0 +1,5 @@
+2020-04-19 23:35:14.518  INFO 17996 --- [main] c.b.s.r.a.SpringBootReactorApplication   : Starting SpringBootReactorApplication on DESKTOP-3D9NU1V with PID 17996 (C:\Users\EderFlores\Documents\workspace-spring-tool-suite-4\spring-boot-reactor\target\classes started by EderFlores in C:\Users\EderFlores\Documents\workspace-spring-tool-suite-4\spring-boot-reactor)
+2020-04-19 23:35:14.521  INFO 17996 --- [main] c.b.s.r.a.SpringBootReactorApplication   : No active profile set, falling back to default profiles: default
+2020-04-19 23:35:14.831  INFO 17996 --- [main] c.b.s.r.a.SpringBootReactorApplication   : Started SpringBootReactorApplication in 0.548 seconds (JVM running for 0.96)
+2020-04-19 23:35:14.849  INFO 17996 --- [main] c.b.s.r.a.SpringBootReactorApplication   : bruce lee
+2020-04-19 23:35:14.849  INFO 17996 --- [main] c.b.s.r.a.SpringBootReactorApplication   : bruce williams
