@@ -35,7 +35,17 @@ public class SpringBootReactorApplication implements CommandLineRunner {
 		// ejemploToString();
 		//ejemploToCollectList();
 		//ejemploUsuarioComentariosFlatMap();
-		ejemploUsuarioComentariosZipWith();
+		//ejemploUsuarioComentariosZipWith();
+		ejemploZipWithFormaRangos();
+	}
+	
+	public void ejemploZipWithFormaRangos() {
+		Flux<Integer> rangos = Flux.range(0, 4);
+		
+		Flux.just(1,2,3,4)
+		.map(i -> i*2)
+		.zipWith(rangos,(uno,dos)->String.format("Primer Flux: %d, Segundo Flux: %d", uno,dos))
+		.subscribe(texto -> log.info(texto));
 	}
 	
 	public void ejemploUsuarioComentariosZipWithForma2() {
@@ -56,7 +66,6 @@ public class SpringBootReactorApplication implements CommandLineRunner {
 		usuarioConComentarios.subscribe(uc-> log.info(uc.toString()));
 	}
 	
-
 	public void ejemploUsuarioComentariosZipWith() {
 		Mono<Usuario> usuarioMono = Mono.fromCallable(()-> new Usuario("John","Doe"));
 		
@@ -67,10 +76,10 @@ public class SpringBootReactorApplication implements CommandLineRunner {
 			comentarios.addComentario("Estoy tomando el curso de spring reactivo");
 			return comentarios;
 		});
-		Mono<UsuarioComentarios> usuarioConComentarios = usuarioMono.zipWith(comentariosUsuarioMono,(usuario,comentariosUsuarios)->new UsuarioComentarios(usuario,comentariosUsuarios));
+		Mono<UsuarioComentarios> usuarioConComentarios = usuarioMono
+				.zipWith(comentariosUsuarioMono,(usuario,comentariosUsuarios)->new UsuarioComentarios(usuario,comentariosUsuarios));
 		usuarioConComentarios.subscribe(uc-> log.info(uc.toString()));
 	}
-	
 	
 	public void ejemploUsuarioComentariosFlatMap() {
 		Mono<Usuario> usuarioMono = Mono.fromCallable(()-> new Usuario("John","Doe"));
