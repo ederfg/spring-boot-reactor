@@ -1,5 +1,6 @@
 package com.bolsadeideas.springboot.reactor.app;
 
+import java.time.Duration;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -36,7 +37,29 @@ public class SpringBootReactorApplication implements CommandLineRunner {
 		//ejemploToCollectList();
 		//ejemploUsuarioComentariosFlatMap();
 		//ejemploUsuarioComentariosZipWith();
-		ejemploZipWithFormaRangos();
+		//ejemploZipWithFormaRangos();
+		//ejemploInterval();
+		ejemploDelayELements();
+	}
+	
+	
+	public void ejemploDelayELements() {
+		Flux<Integer> rango = Flux.range(1, 12)
+				.delayElements(Duration.ofSeconds(1))
+				.doOnNext(i -> log.info(i.toString()));
+		
+		rango.blockLast();
+		//Flux<Long> retraso = Flux.interval(Duration.ofSeconds(1));
+		
+	}
+	
+	public void ejemploInterval() {
+		Flux<Integer> rango = Flux.range(1, 12);
+		Flux<Long> retraso = Flux.interval(Duration.ofSeconds(1));
+		
+		rango.zipWith(retraso,(ra,re)->ra)
+		.doOnNext(i -> log.info(i.toString()))
+		.blockLast();
 	}
 	
 	public void ejemploZipWithFormaRangos() {

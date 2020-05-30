@@ -1,7 +1,48 @@
-2020-05-27 09:58:10.567  INFO 17372 --- [main] c.b.s.r.a.SpringBootReactorApplication   : Starting SpringBootReactorApplication on FFLORESG-PC with PID 17372 (D:\Gestion2019\practica\spring-boot-reactor\target\classes started by FFLORESG in D:\Gestion2019\practica\spring-boot-reactor)
-2020-05-27 09:58:10.585  INFO 17372 --- [main] c.b.s.r.a.SpringBootReactorApplication   : No active profile set, falling back to default profiles: default
-2020-05-27 09:58:10.853  INFO 17372 --- [main] c.b.s.r.a.SpringBootReactorApplication   : Started SpringBootReactorApplication in 0.465 seconds (JVM running for 0.794)
-2020-05-27 09:58:10.873  INFO 17372 --- [main] c.b.s.r.a.SpringBootReactorApplication   : Primer Flux: 2, Segundo Flux: 0
-2020-05-27 09:58:10.874  INFO 17372 --- [main] c.b.s.r.a.SpringBootReactorApplication   : Primer Flux: 4, Segundo Flux: 1
-2020-05-27 09:58:10.874  INFO 17372 --- [main] c.b.s.r.a.SpringBootReactorApplication   : Primer Flux: 6, Segundo Flux: 2
-2020-05-27 09:58:10.874  INFO 17372 --- [main] c.b.s.r.a.SpringBootReactorApplication   : Primer Flux: 8, Segundo Flux: 3
+2020-05-28 11:55:46.113  INFO 15364 --- [main] c.b.s.r.a.SpringBootReactorApplication   : Starting SpringBootReactorApplication on FFLORESG-PC with PID 15364 (D:\Gestion2019\practica\spring-boot-reactor\target\classes started by FFLORESG in D:\Gestion2019\practica\spring-boot-reactor)
+2020-05-28 11:55:46.118  INFO 15364 --- [main] c.b.s.r.a.SpringBootReactorApplication   : No active profile set, falling back to default profiles: default
+2020-05-28 11:55:46.448  INFO 15364 --- [main] c.b.s.r.a.SpringBootReactorApplication   : Started SpringBootReactorApplication in 0.575 seconds (JVM running for 1.165)
+2020-05-28 11:55:47.474  INFO 15364 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 1
+2020-05-28 11:55:48.475  INFO 15364 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 2
+2020-05-28 11:55:49.474  INFO 15364 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 3
+2020-05-28 11:55:50.475  INFO 15364 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 4
+2020-05-28 11:55:51.476  INFO 15364 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 5
+2020-05-28 11:55:52.475  INFO 15364 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 6
+2020-05-28 11:55:53.474  INFO 15364 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 7
+2020-05-28 11:55:54.475  INFO 15364 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 8
+2020-05-28 11:55:55.475  INFO 15364 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 9
+2020-05-28 11:55:56.480  INFO 15364 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 10
+2020-05-28 11:55:57.476  INFO 15364 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 11
+2020-05-28 11:55:58.475  INFO 15364 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 12
+2020-05-28 11:59:01.617  INFO 9804 --- [main] c.b.s.r.a.SpringBootReactorApplication   : Starting SpringBootReactorApplication on FFLORESG-PC with PID 9804 (D:\Gestion2019\practica\spring-boot-reactor\target\classes started by FFLORESG in D:\Gestion2019\practica\spring-boot-reactor)
+2020-05-28 11:59:01.619  INFO 9804 --- [main] c.b.s.r.a.SpringBootReactorApplication   : No active profile set, falling back to default profiles: default
+2020-05-28 11:59:01.919  INFO 9804 --- [main] c.b.s.r.a.SpringBootReactorApplication   : Started SpringBootReactorApplication in 0.484 seconds (JVM running for 0.862)
+2020-05-28 11:59:02.935  INFO 9804 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 1
+2020-05-28 11:59:03.935  INFO 9804 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 2
+2020-05-28 11:59:04.935  INFO 9804 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 3
+2020-05-28 11:59:05.935  INFO 9804 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 4
+2020-05-28 11:59:06.935  INFO 9804 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 5
+2020-05-28 11:59:07.935  INFO 9804 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 6
+2020-05-28 11:59:08.935  INFO 9804 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 7
+2020-05-28 11:59:09.935  INFO 9804 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 8
+2020-05-28 11:59:10.935  INFO 9804 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 9
+2020-05-28 11:59:11.936  INFO 9804 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 10
+2020-05-28 11:59:12.935  INFO 9804 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 11
+2020-05-28 11:59:13.936  INFO 9804 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 12
+2020-05-28 11:59:36.212  INFO 17180 --- [main] c.b.s.r.a.SpringBootReactorApplication   : Starting SpringBootReactorApplication on FFLORESG-PC with PID 17180 (D:\Gestion2019\practica\spring-boot-reactor\target\classes started by FFLORESG in D:\Gestion2019\practica\spring-boot-reactor)
+2020-05-28 11:59:36.213  INFO 17180 --- [main] c.b.s.r.a.SpringBootReactorApplication   : No active profile set, falling back to default profiles: default
+2020-05-28 11:59:36.451  INFO 17180 --- [main] c.b.s.r.a.SpringBootReactorApplication   : Started SpringBootReactorApplication in 0.408 seconds (JVM running for 0.759)
+2020-05-28 12:03:08.491  INFO 8324 --- [main] c.b.s.r.a.SpringBootReactorApplication   : Starting SpringBootReactorApplication on FFLORESG-PC with PID 8324 (D:\Gestion2019\practica\spring-boot-reactor\target\classes started by FFLORESG in D:\Gestion2019\practica\spring-boot-reactor)
+2020-05-28 12:03:08.492  INFO 8324 --- [main] c.b.s.r.a.SpringBootReactorApplication   : No active profile set, falling back to default profiles: default
+2020-05-28 12:03:08.738  INFO 8324 --- [main] c.b.s.r.a.SpringBootReactorApplication   : Started SpringBootReactorApplication in 0.416 seconds (JVM running for 0.742)
+2020-05-28 12:03:09.760  INFO 8324 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 1
+2020-05-28 12:03:10.764  INFO 8324 --- [parallel-2] c.b.s.r.a.SpringBootReactorApplication   : 2
+2020-05-28 12:03:11.767  INFO 8324 --- [parallel-3] c.b.s.r.a.SpringBootReactorApplication   : 3
+2020-05-28 12:03:12.769  INFO 8324 --- [parallel-4] c.b.s.r.a.SpringBootReactorApplication   : 4
+2020-05-28 12:03:13.770  INFO 8324 --- [parallel-5] c.b.s.r.a.SpringBootReactorApplication   : 5
+2020-05-28 12:03:14.772  INFO 8324 --- [parallel-6] c.b.s.r.a.SpringBootReactorApplication   : 6
+2020-05-28 12:03:15.774  INFO 8324 --- [parallel-7] c.b.s.r.a.SpringBootReactorApplication   : 7
+2020-05-28 12:03:16.776  INFO 8324 --- [parallel-8] c.b.s.r.a.SpringBootReactorApplication   : 8
+2020-05-28 12:03:17.779  INFO 8324 --- [parallel-1] c.b.s.r.a.SpringBootReactorApplication   : 9
+2020-05-28 12:03:18.781  INFO 8324 --- [parallel-2] c.b.s.r.a.SpringBootReactorApplication   : 10
+2020-05-28 12:03:19.781  INFO 8324 --- [parallel-3] c.b.s.r.a.SpringBootReactorApplication   : 11
+2020-05-28 12:03:20.782  INFO 8324 --- [parallel-4] c.b.s.r.a.SpringBootReactorApplication   : 12
